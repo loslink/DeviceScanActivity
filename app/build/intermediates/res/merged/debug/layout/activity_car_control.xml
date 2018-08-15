@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_margin="0px"
+        android:stretchColumns="3">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            >
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                 />
+
+            <Button
+                android:id="@+id/btn_go"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:text="前" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                 />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content">
+
+            <Button
+                android:id="@+id/btn_left"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:text="左"
+                />
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:text="停" />
+
+            <Button
+                android:id="@+id/btn_right"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:text="右"
+                />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:text="后" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
